@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Roboto:wght@100;400;700&display=swap');
+
+
+header{
+    background-color: #E55604;
+}
+main{
+    background-color: bisque;
+}
+/**
+font-family: 'Inclusive Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+/*****header******/
+.headerIndex{
+    background-color: rgba(85, 85, 184, 0.395);
+}
+
+.headerContacto{
+    background-color: #c4c26183;
+}
+
+.navbar{
+    list-style:none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+.navbar .colorAncla a{
+    color: red;
+}
+
+/******main index******/
+.sectionPrincipal h1{
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: lowercase;
+    letter-spacing: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectionSecundaria{
+    font-size: 20px; /* por defecto 16px es lo que se usa de tamaño de letra*/
+}
+
+.sectionSecundaria div{
+    text-align: center;
+}
+.sectionSecundaria div p{
+    word-spacing: 10px;
+    font-weight: bold;
+}
+
+.sectionSecundaria .sectionDivDos{
+    text-align: left;
+}
+
+.sectionSecundaria .sectionDivDos h2{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+.color span{
+    background-color: yellow;
+}
+/** main contactos***/
