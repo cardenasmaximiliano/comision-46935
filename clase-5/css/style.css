@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerIndex{
+    background-color: rgba(236, 39, 39, 0.928);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.875rem 1.25rem;
+    z-index: 4;
+    /*propiedad position**/
+    position: sticky;
+    top: 0px;
+    /* left: ;
+    right: ;
+    bottom: unset; */
+}
+.navBar{
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+    padding-right: 2.5rem;
+}
+.navBar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+   
+}
+/**main*/
+
+.sectionPrincipal{
+    width: 100%;
+    background-color: rgb(252, 55, 55);
+    height: 37.5rem;
+
+    background-image: url("https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2106&q=80");
+    background-position: 40% 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionPrincipal h1{
+    color: white;
+    background-color: rgba(39, 38, 38, 0.62);
+    width: 18.75rem;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgba(13, 13, 13, 0.807);
+}
+.card{
+    width: 18.75rem;
+    height: 25rem;
+    border-radius: 1.25rem;
+    overflow: hidden;
+    box-shadow: 1px 1px .625rem black;
+    background-color: lightblue;
+    position: relative;
+    z-index: 1;
+}
+.card div{
+    width: 100%;
+    height: 12.5rem;
+}
+.card div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cardContainer{
+    display: flex;
+   
+    width: 100%;
+    /**propiedades bases de flexbox*/
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* height: 31.25rem; */
+    background-color: black;
+    /* justify-content: space-evenly;
+    align-items: center; */
+    align-items: center;
+    justify-content: center;
+}
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.corazon{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
